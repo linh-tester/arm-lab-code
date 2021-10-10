@@ -1,0 +1,46 @@
+;;Tim BCNN dung thanh ghi chung
+	;AREA RESET, DATA, READONLY
+		;DCD 0x20001000
+		;DCD Reset_Handler
+	;ALIGN
+;M DCD 15
+;N DCD 20
+	;AREA MYCODE, CODE, READONLY
+	;EXPORT Reset_Handler
+	
+;UCLN PROC
+;LOOPUCLN	
+	;CMP R1, R2
+	;BXEQ LR
+	;BGT CONTINUE
+;SWAP 
+	;MOV R3, R1
+	;MOV R1, R2
+	;MOV R2, R3
+;CONTINUE
+	;SUB R1, R1, R2 ; m = m - n
+	;B LOOPUCLN
+	;ENDP
+;BCNN PROC	
+	;LDR R1, N
+	;LDR R2, M
+	;MUL R3, R1, R2
+	;UDIV R0, R3, R0
+	;BX LR
+	;ENDP
+	;ENTRY
+;Reset_Handler
+	;MOV R0, #0
+	;LDR R1, N
+	;LDR R2, M
+	
+	;CMP R1, #0
+	;BEQ thoat
+	;CMP R2, #0
+	;BEQ thoat
+	;BL UCLN
+	;MOV R0, R2
+	;BL BCNN
+;thoat
+	;SWI &11
+	;END
