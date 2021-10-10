@@ -574,6 +574,41 @@
             </File>
           </Files>
         </Group>
+        <Group>
+          <GroupName>Lab6</GroupName>
+          <Files>
+            <File>
+              <FileName>lab6_bai1.s</FileName>
+              <FileType>2</FileType>
+              <FilePath>.\Lab6\lab6_bai1.s</FilePath>
+            </File>
+            <File>
+              <FileName>lab6_bai2.s</FileName>
+              <FileType>2</FileType>
+              <FilePath>.\Lab6\lab6_bai2.s</FilePath>
+            </File>
+            <File>
+              <FileName>lab6_bai3.s</FileName>
+              <FileType>2</FileType>
+              <FilePath>.\Lab6\lab6_bai3.s</FilePath>
+            </File>
+            <File>
+              <FileName>lab6_bai3b.s</FileName>
+              <FileType>2</FileType>
+              <FilePath>.\Lab6\lab6_bai3b.s</FilePath>
+            </File>
+            <File>
+              <FileName>lab6_bai4.s</FileName>
+              <FileType>2</FileType>
+              <FilePath>.\Lab6\lab6_bai4.s</FilePath>
+            </File>
+            <File>
+              <FileName>lab6_bai5.s</FileName>
+              <FileType>2</FileType>
+              <FilePath>.\Lab6\lab6_bai5.s</FilePath>
+            </File>
+          </Files>
+        </Group>
       </Groups>
     </Target>
   </Targets>
