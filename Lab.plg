@@ -4,47 +4,41 @@
 <h1>µVision Build Log</h1>
 <h2>Project:</h2>
 D:\Study\ASM\Lab.uvproj
-Project File Date:  10/10/2021
+Project File Date:  10/11/2021
 
 <h2>Output:</h2>
-assembling lab6_bai4.s...
-Lab6\lab6_bai4.s(51): warning: A1581W: Added 2 bytes of padding at address 0x56
-"Lab6\lab6_bai4.s" - 0 Errors, 1 Warning(s).
 Build target 'Target 1'
-assembling lab6_bai5.s...
-Lab6\lab6_bai5.s(30): warning: A1313W: Missing END directive at end of file
+assembling lab8_bai1.s...
+Lab8\lab8_bai1.s(49): warning: A1313W: Missing END directive at end of file
+assembling lab8_bai2.s...
+Lab8\lab8_bai2.s(29): warning: A1581W: Added 2 bytes of padding at address 0x22
 linking...
 .\Lab.sct(8): warning: L6314W: No section matches pattern *(InRoot$$Sections).
-Program Size: Code=96 RO-data=24 RW-data=4 ZI-data=0  
-".\Lab.axf" - 0 Errors, 2 Warning(s).
-Build target 'Target 1'
-assembling lab6_bai5.s...
-Lab6\lab6_bai5.s(30): warning: A1313W: Missing END directive at end of file
-linking...
-.\Lab.sct(8): warning: L6314W: No section matches pattern *(InRoot$$Sections).
-Program Size: Code=96 RO-data=24 RW-data=4 ZI-data=0  
-".\Lab.axf" - 0 Errors, 2 Warning(s).
-Build target 'Target 1'
-assembling lab6_bai4.s...
-Lab6\lab6_bai4.s(52): warning: A1313W: Missing END directive at end of file
-assembling lab6_bai5.s...
-Lab6\lab6_bai5.s(33): warning: A1581W: Added 2 bytes of padding at address 0x26
-linking...
-.\Lab.axf: Warning: L6305W: Image does not have an entry point. (Not specified or not set due to multiple choices.)
-.\Lab.sct(8): warning: L6314W: No section matches pattern *(InRoot$$Sections).
-Program Size: Code=52 RO-data=24 RW-data=4 ZI-data=0  
-".\Lab.axf" - 0 Errors, 4 Warning(s).
-Build target 'Target 1'
-linking...
-.\Lab.axf: Warning: L6305W: Image does not have an entry point. (Not specified or not set due to multiple choices.)
-.\Lab.sct(8): warning: L6314W: No section matches pattern *(InRoot$$Sections).
-Program Size: Code=52 RO-data=24 RW-data=4 ZI-data=0  
-".\Lab.axf" - 0 Errors, 2 Warning(s).
-Build target 'Target 1'
-assembling lab6_bai5.s...
-Lab6\lab6_bai5.s(35): warning: A1581W: Added 2 bytes of padding at address 0x2a
-linking...
-.\Lab.axf: Warning: L6305W: Image does not have an entry point. (Not specified or not set due to multiple choices.)
-.\Lab.sct(8): warning: L6314W: No section matches pattern *(InRoot$$Sections).
-Program Size: Code=56 RO-data=24 RW-data=4 ZI-data=0  
+Program Size: Code=48 RO-data=48 RW-data=100 ZI-data=0  
 ".\Lab.axf" - 0 Errors, 3 Warning(s).
+Build target 'Target 1'
+assembling lab8_bai2.s...
+Lab8\lab8_bai2.s(32): warning: A1581W: Added 2 bytes of padding at address 0x26
+linking...
+.\Lab.sct(8): warning: L6314W: No section matches pattern *(InRoot$$Sections).
+Program Size: Code=52 RO-data=48 RW-data=100 ZI-data=0  
+".\Lab.axf" - 0 Errors, 2 Warning(s).
+Build target 'Target 1'
+assembling lab8_bai2.s...
+Lab8\lab8_bai2.s(32): warning: A1581W: Added 2 bytes of padding at address 0x26
+linking...
+.\Lab.sct(8): warning: L6314W: No section matches pattern *(InRoot$$Sections).
+Program Size: Code=52 RO-data=48 RW-data=100 ZI-data=0  
+".\Lab.axf" - 0 Errors, 2 Warning(s).
+Build target 'Target 1'
+assembling lab8_bai2.s...
+Lab8\lab8_bai2.s(32): warning: A1581W: Added 2 bytes of padding at address 0x26
+linking...
+.\Lab.sct(8): warning: L6314W: No section matches pattern *(InRoot$$Sections).
+Program Size: Code=52 RO-data=48 RW-data=100 ZI-data=0  
+".\Lab.axf" - 0 Errors, 2 Warning(s).
+Build target 'Target 1'
+linking...
+.\Lab.sct(8): warning: L6314W: No section matches pattern *(InRoot$$Sections).
+Program Size: Code=52 RO-data=48 RW-data=100 ZI-data=0  
+".\Lab.axf" - 0 Errors, 1 Warning(s).

@@ -1,0 +1,33 @@
+;; Ma hoa caesar voi khoa k
+	;AREA RESET, DATA, READONLY
+		;DCD 0x20001000
+		;DCD Reset_Handler
+	;ALIGN
+;XauRo DCB "SPIDER MAN",0
+;K DCB "XNYAHPOGZQWBTSFLRCVMUEKJDI"
+	;AREA STORE, DATA, READWRITE
+;XauMa SPACE 100
+	;AREA MYCODE, CODE, READONLY
+	;EXPORT Reset_Handler
+	;ENTRY
+;Reset_Handler
+	;LDR R0,=K
+	;LDR R1,=XauRo
+	;LDR R2,=XauMa
+;LOOP
+	;LDRB R3, [R1], #1
+	;CMP R3, #0
+	;BEQ STOP
+	;CMP R3, #0x20 ; SPACE
+	;BEQ CONTINUE
+	;SUB R3, #0x41
+	;LDRB R3, [R0, R3]
+;CONTINUE
+	;STRB R3, [R2], #1 ; Luu tu vao
+	;B LOOP
+;STOP
+	;MOV R3, #0
+	;STRB R3, [R2]
+	;SWI &11
+	;END
+	

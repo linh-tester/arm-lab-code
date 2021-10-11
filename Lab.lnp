@@ -39,6 +39,11 @@
 ".\lab6_bai3b.o"
 ".\lab6_bai4.o"
 ".\lab6_bai5.o"
+".\lab7_bai1.o"
+".\lab7_bai2.o"
+".\lab7_bai3.o"
+".\lab8_bai1.o"
+".\lab8_bai2.o"
 --strict --scatter ".\Lab.sct"
 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers

@@ -1,0 +1,52 @@
+;; Tinh chinh hop chap k cua N
+	;AREA RESET, DATA, READONLY
+		;DCD 0x20001000
+		;DCD Reset_Handler
+	;ALIGN
+;N DCD 10
+;K DCD 8
+	;AREA STORE, DATA, READWRITE
+;RESULT SPACE 100
+	;AREA MYCODE, CODE, READONLY
+	;EXPORT Reset_Handler
+;GIAITHUA PROC
+	;MOV R0, #2
+	;MOV R1, #1
+	;MOV R2, #1
+	;POP {R3, R4}; n va n - k
+	;CMP R4, #0
+	;BLE EXIT
+;LOOP
+	;CMP R0, R3
+	;BGT ENDLOOP
+	;MUL R1, R0
+	;CMP R0, R4
+	;MULLE R2, R0
+	;ADD R0, #1
+	;B LOOP
+;ENDLOOP
+	;PUSH {R1, R2}
+	;BX LR
+	;ENDP
+	;ENTRY
+;CHINHHOP PROC
+	;POP {R3, R4}
+	;SUB R4, R3, R4
+	;PUSH {LR, R3, R4}
+	;BL GIAITHUA
+	;POP {LR, R3, R4}
+	;UDIV R3, R3, R4
+	;PUSH {R3}
+	;BX LR
+	;ENDP
+;Reset_Handler
+	;LDR R0, N
+	;LDR R1, K
+	;PUSH {R0, R1}
+	;BL CHINHHOP
+	;POP {R3}
+	;LDR R5, =RESULT
+	;STR R3, [R5]
+;EXIT 
+	;SWI &11
+	;END

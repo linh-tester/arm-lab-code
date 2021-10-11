@@ -609,6 +609,36 @@
             </File>
           </Files>
         </Group>
+        <Group>
+          <GroupName>Lab7</GroupName>
+          <Files>
+            <File>
+              <FileName>lab7_bai1.s</FileName>
+              <FileType>2</FileType>
+              <FilePath>.\Lab7\lab7_bai1.s</FilePath>
+            </File>
+            <File>
+              <FileName>lab7_bai2.s</FileName>
+              <FileType>2</FileType>
+              <FilePath>.\Lab7\lab7_bai2.s</FilePath>
+            </File>
+            <File>
+              <FileName>lab7_bai3.s</FileName>
+              <FileType>2</FileType>
+              <FilePath>.\Lab7\lab7_bai3.s</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>Lab8</GroupName>
+          <Files>
+            <File>
+              <FileName>lab8_bai1.s</FileName>
+              <FileType>2</FileType>
+              <FilePath>.\Lab8\lab8_bai1.s</FilePath>
+            </File>
+          </Files>
+        </Group>
       </Groups>
     </Target>
   </Targets>
