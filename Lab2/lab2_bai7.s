@@ -14,7 +14,7 @@
 ;Reset_Handler
 ;;====================================
 ;start
-	;MOV R0, #0 ;Tong chan
+	;MOV R0, #0 ;Tong chan	
 	;MOV R1, #0 ;Tong le
 	;LDR R2, =nums
 	;LDR R3, =n
@@ -22,6 +22,8 @@
 	;CMP R3, #0
 	;BLE thoat
 	;LDR R4, [R2], #4
+	;CMP R5, #0
+	;BLE continue
 	;LSRS R5, R4, #1 ; Dich phai 1 bit va Update flag
 	;BCS add_le ; Co C duoc dat thanh bit cuoi cung dich ra khoi bit ban dau (neu = 1 thi la le)
 	;BCC add_chan; C = 0

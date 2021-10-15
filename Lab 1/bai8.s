@@ -1,4 +1,4 @@
-;; TIM UCLN
+;; TIM BCLN
 	;AREA RESET, DATA, READONLY
 		;DCD 0x20001000
 		;DCD Reset_Handler

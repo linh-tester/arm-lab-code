@@ -44,6 +44,7 @@
 ".\lab7_bai3.o"
 ".\lab8_bai1.o"
 ".\lab8_bai2.o"
+".\lab8_bai3.o"
 --strict --scatter ".\Lab.sct"
 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers

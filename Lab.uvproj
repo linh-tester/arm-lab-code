@@ -637,6 +637,16 @@
               <FileType>2</FileType>
               <FilePath>.\Lab8\lab8_bai1.s</FilePath>
             </File>
+            <File>
+              <FileName>lab8_bai2.s</FileName>
+              <FileType>2</FileType>
+              <FilePath>.\Lab8\lab8_bai2.s</FilePath>
+            </File>
+            <File>
+              <FileName>lab8_bai3.s</FileName>
+              <FileType>2</FileType>
+              <FilePath>.\Lab8\lab8_bai3.s</FilePath>
+            </File>
           </Files>
         </Group>
       </Groups>
