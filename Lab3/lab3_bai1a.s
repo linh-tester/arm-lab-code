@@ -9,7 +9,6 @@
 ;FUNCADD PROC
 	;ADD R0, R1
 	;BX LR
-	;;MOV PC, LR
 	;ENDP
 	
 	;ENTRY

@@ -12,6 +12,7 @@
 	;PUSH {R4}
 	;BX LR
 	;ENDP
+	;ENTRY
 ;Reset_Handler
 	;MOV R0, #0 ; Chan
 	;MOV R1, #0 ; Le
@@ -20,7 +21,7 @@
 	;CMP R2, #0
 	;BEQ thoat	
 	;LSRS R3, R2, 1;
-	;PUSHCC {R0, R2}
+	;PUSHCC {R0, R2} ; c= 0
 	;PUSHCS {R1, R2}
 	;BL FUNCADD 
 	;POPCC {R0}

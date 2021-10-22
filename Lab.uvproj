@@ -498,6 +498,36 @@
               <FilePath>.\Lab3\lab3_bai1b.s</FilePath>
             </File>
             <File>
+              <FileName>lab3_bai1c.s</FileName>
+              <FileType>2</FileType>
+              <FilePath>.\Lab3\lab3_bai1c.s</FilePath>
+            </File>
+            <File>
+              <FileName>lab3_bai1d.s</FileName>
+              <FileType>2</FileType>
+              <FilePath>.\Lab3\lab3_bai1d.s</FilePath>
+            </File>
+            <File>
+              <FileName>lab3_bai1e.s</FileName>
+              <FileType>2</FileType>
+              <FilePath>.\Lab3\lab3_bai1e.s</FilePath>
+            </File>
+            <File>
+              <FileName>lab3_bai1f.s</FileName>
+              <FileType>2</FileType>
+              <FilePath>.\Lab3\lab3_bai1f.s</FilePath>
+            </File>
+            <File>
+              <FileName>lab3_bai1g.s</FileName>
+              <FileType>2</FileType>
+              <FilePath>.\Lab3\lab3_bai1g.s</FilePath>
+            </File>
+            <File>
+              <FileName>lab3_bai1h.s</FileName>
+              <FileType>2</FileType>
+              <FilePath>.\Lab3\lab3_bai1h.s</FilePath>
+            </File>
+            <File>
               <FileName>lab3_bai2a.s</FileName>
               <FileType>2</FileType>
               <FilePath>.\Lab3\lab3_bai2a.s</FilePath>
@@ -508,19 +538,9 @@
               <FilePath>.\Lab3\lab3_bai2b.s</FilePath>
             </File>
             <File>
-              <FileName>lab3_bai1c.s</FileName>
-              <FileType>2</FileType>
-              <FilePath>.\Lab3\lab3_bai1c.s</FilePath>
-            </File>
-            <File>
               <FileName>lab3_bai2c.s</FileName>
               <FileType>2</FileType>
               <FilePath>.\Lab3\lab3_bai2c.s</FilePath>
-            </File>
-            <File>
-              <FileName>lab3_bai1d.s</FileName>
-              <FileType>2</FileType>
-              <FilePath>.\Lab3\lab3_bai1d.s</FilePath>
             </File>
             <File>
               <FileName>lab3_bai2d.s</FileName>
@@ -528,19 +548,9 @@
               <FilePath>.\Lab3\lab3_bai2d.s</FilePath>
             </File>
             <File>
-              <FileName>lab3_bai1e.s</FileName>
-              <FileType>2</FileType>
-              <FilePath>.\Lab3\lab3_bai1e.s</FilePath>
-            </File>
-            <File>
               <FileName>lab3_bai2e.s</FileName>
               <FileType>2</FileType>
               <FilePath>.\Lab3\lab3_bai2e.s</FilePath>
-            </File>
-            <File>
-              <FileName>lab3_bai1f.s</FileName>
-              <FileType>2</FileType>
-              <FilePath>.\Lab3\lab3_bai1f.s</FilePath>
             </File>
             <File>
               <FileName>lab3_bai2f.s</FileName>
@@ -548,19 +558,9 @@
               <FilePath>.\Lab3\lab3_bai2f.s</FilePath>
             </File>
             <File>
-              <FileName>lab3_bai1g.s</FileName>
-              <FileType>2</FileType>
-              <FilePath>.\Lab3\lab3_bai1g.s</FilePath>
-            </File>
-            <File>
               <FileName>lab3_bai2g.s</FileName>
               <FileType>2</FileType>
               <FilePath>.\Lab3\lab3_bai2g.s</FilePath>
-            </File>
-            <File>
-              <FileName>lab3_bai1h.s</FileName>
-              <FileType>2</FileType>
-              <FilePath>.\Lab3\lab3_bai1h.s</FilePath>
             </File>
             <File>
               <FileName>lab3_bai2h.s</FileName>
@@ -571,6 +571,41 @@
               <FileName>lab3_bai3.s</FileName>
               <FileType>2</FileType>
               <FilePath>.\Lab3\lab3_bai3.s</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>Lab5</GroupName>
+          <Files>
+            <File>
+              <FileName>16_2.s</FileName>
+              <FileType>2</FileType>
+              <FilePath>.\Lab5\16_2.s</FilePath>
+            </File>
+            <File>
+              <FileName>16_8.s</FileName>
+              <FileType>2</FileType>
+              <FilePath>.\Lab5\16_8.s</FilePath>
+            </File>
+            <File>
+              <FileName>lab5_bai2.s</FileName>
+              <FileType>2</FileType>
+              <FilePath>.\Lab5\lab5_bai2.s</FilePath>
+            </File>
+            <File>
+              <FileName>lab5_bai3.s</FileName>
+              <FileType>2</FileType>
+              <FilePath>.\Lab5\lab5_bai3.s</FilePath>
+            </File>
+            <File>
+              <FileName>lab5_bai4.s</FileName>
+              <FileType>2</FileType>
+              <FilePath>.\Lab5\lab5_bai4.s</FilePath>
+            </File>
+            <File>
+              <FileName>2_8.s</FileName>
+              <FileType>2</FileType>
+              <FilePath>.\Lab5\2_8.s</FilePath>
             </File>
           </Files>
         </Group>

@@ -11,7 +11,7 @@
 	;EXPORT Reset_Handler
 ;IN_HOA PROC
 	;CMP R2, #0x61
-	;SUBGE R2, #32 ; >= a
+	;SUBGE R2, #0x20 ; >= a
 	;BX LR
 	;ENDP
 ;IN_THUONG PROC
@@ -26,7 +26,7 @@
 	;LDRB R2, [R0], #1
 	;CMP R2, #0
 	;BEQ EXIT
-	;CMP R2, #0x61 ; Kiem tra xem ky tu tiep theo la thuong hay in hoa
+	;;CMP R2, #0x61 ; Kiem tra xem ky tu tiep theo la thuong hay in hoa
 	;BL IN_HOA	
 	;STRB R2, [R1], #1
 ;LOOP
@@ -40,7 +40,10 @@
 	;B LOOP
 ;READ_SPACE	
 	;STRB R2, [R1], #1	
+;REMOVE_SPACE
 	;LDRB R2, [R0], #1
+	;CMP R2, #20
+	;BEQ REMOVE_SPACE
 	;BL IN_HOA
 	;STRB R2, [R1], #1
 	;B LOOP
