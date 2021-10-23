@@ -4,7 +4,7 @@
 		;DCD Reset_Handler
 	;ALIGN
 	;AREA DATA1, DATA, READONLY
-;CHUOI DCB "xAu chuAn HoA",0		
+;CHUOI DCB "   xAu   chuAn HoA  ",0		
 	;AREA STORE, DATA, READWRITE
 ;KETQUA DCB 0	
 	;AREA MYCODE, CODE, READONLY
@@ -26,7 +26,8 @@
 	;LDRB R2, [R0], #1
 	;CMP R2, #0
 	;BEQ EXIT
-	;;CMP R2, #0x61 ; Kiem tra xem ky tu tiep theo la thuong hay in hoa
+	;CMP R2, #0x20
+	;BEQ REMOVE_SPACE
 	;BL IN_HOA	
 	;STRB R2, [R1], #1
 ;LOOP
@@ -42,8 +43,11 @@
 	;STRB R2, [R1], #1	
 ;REMOVE_SPACE
 	;LDRB R2, [R0], #1
-	;CMP R2, #20
+	;CMP R2, #0x20
 	;BEQ REMOVE_SPACE
+	;CMP R2, #0
+	;SUBEQ R1, #1 ; Bo ky tu vua luu
+	;BEQ EXIT
 	;BL IN_HOA
 	;STRB R2, [R1], #1
 	;B LOOP

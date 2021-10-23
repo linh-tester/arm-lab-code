@@ -578,6 +578,11 @@
           <GroupName>Lab5</GroupName>
           <Files>
             <File>
+              <FileName>2_8.s</FileName>
+              <FileType>2</FileType>
+              <FilePath>.\Lab5\2_8.s</FilePath>
+            </File>
+            <File>
               <FileName>16_2.s</FileName>
               <FileType>2</FileType>
               <FilePath>.\Lab5\16_2.s</FilePath>
@@ -603,9 +608,14 @@
               <FilePath>.\Lab5\lab5_bai4.s</FilePath>
             </File>
             <File>
-              <FileName>2_8.s</FileName>
+              <FileName>n_m.s</FileName>
               <FileType>2</FileType>
-              <FilePath>.\Lab5\2_8.s</FilePath>
+              <FilePath>.\Lab5\n_m.s</FilePath>
+            </File>
+            <File>
+              <FileName>2_10.s</FileName>
+              <FileType>2</FileType>
+              <FilePath>.\Lab5\2_10.s</FilePath>
             </File>
           </Files>
         </Group>
@@ -681,6 +691,11 @@
               <FileName>lab8_bai3.s</FileName>
               <FileType>2</FileType>
               <FilePath>.\Lab8\lab8_bai3.s</FilePath>
+            </File>
+            <File>
+              <FileName>lab8_bai4.s</FileName>
+              <FileType>2</FileType>
+              <FilePath>.\Lab8\lab8_bai4.s</FilePath>
             </File>
           </Files>
         </Group>
