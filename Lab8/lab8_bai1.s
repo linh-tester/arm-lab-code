@@ -21,11 +21,11 @@
 	;CMP R3, #0x41 ; A
 	;BLT CONTINUE ;Tu khong hop le bo qua
 	;CMP R3, #0x5A ;Z
-	;BLE IN_THUONG ; A-Z
+	;BLE IN_HOA ; A-Z
 	;CMP R3, #0x61 ; a
 	;BLT CONTINUE ;
 	;CMP R3, #0x7A ; z
-	;BLE IN_HOA
+	;BLE IN_THUONG
 	;B CONTINUE
 ;IN_THUONG
 	;ADD R3, R0 
